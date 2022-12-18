@@ -1,0 +1,58 @@
+html,
+body {
+  
+  background: url("/images/back.jfif") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+.h3{
+  color: hsl(180, 2%, 30%);
+  font-size: calc(1rem + .6vw);
+
+}
+#success {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url("/images/rneeisance.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+ body {
+  display: flex ;
+   align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+
+
+.form-signin {
+  max-width: 20rem;
+  padding: 15px;
+  padding-top: 5%;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+.mt-5 {
+  margin-top: 2rem !important;
+}
+.top {
+  z-index: 1;
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle {
+   margin-bottom: 0px;
+  border-radius: 0;
+}
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
